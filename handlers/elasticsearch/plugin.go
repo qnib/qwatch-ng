@@ -46,7 +46,8 @@ func indexLog(conn *goes.Connection, idx string, log qtypes.Message) error {
 		Index: idx,
 		Type:  "log",
 		Fields: map[string]interface{}{
-			"Timestamp": log.Time.Format("2006-01-02T15:04:05.999999-07:00"),
+			"@timestamp": log.Time.Format("2006-01-02T15:04:05.999999-07:00"),
+			"agent": 	"qwatch-ng",
 			"msg":       log.Msg,
 			"source":    log.Source,
 			"type":      log.Type,
@@ -74,6 +75,7 @@ func Run(qChan fTypes.QChan, cfg config.Config) {
 	port, _ := cfg.StringOr("handler.elasticsearch.port", "9200")
 	idxForm, _ := cfg.StringOr("handler.elasticsearch.index-format", "logstash-2017-10-24")
 	idx := time.Now().Format(idxForm)
+	log.Printf("index-format: %s -> idxName: %s\n", idxForm, idx)
 	conn := goes.NewConnection(host, port)
 	createIndex(conn, idx)
 	for {

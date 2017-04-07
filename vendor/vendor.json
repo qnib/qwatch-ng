@@ -9,6 +9,12 @@
 			"revisionTime": "2017-03-28T06:15:53Z"
 		},
 		{
+			"checksumSHA1": "4JUlwdhhqFZEvSc4Atmjj5ebPJQ=",
+			"path": "github.com/OwnLocal/goes",
+			"revision": "6c9647b81cbf8daf85a01b1c15a7cc23de351c27",
+			"revisionTime": "2016-07-26T19:28:54Z"
+		},
+		{
 			"checksumSHA1": "GfZvfJZHPiNFI2KTFF9HfNNAMuA=",
 			"path": "github.com/codegangsta/cli",
 			"revision": "8ba6f23b6e36d03666a14bd9421f5e3efcb59aca",
@@ -81,40 +87,40 @@
 			"revisionTime": "2017-04-06T14:22:06Z"
 		},
 		{
-			"checksumSHA1": "81wd+W7emOFqdoxI5PawDzdEmZ0=",
+			"checksumSHA1": "t7s6lfiGAQsrCu2W4ybPUbsuVy0=",
 			"path": "github.com/qnib/qwatch-ng",
-			"revision": "82b3730f6388320a4e0529cf7506620b4cbf858f",
-			"revisionTime": "2017-04-07T13:41:28Z"
+			"revision": "b8105fc6f7ea247e374370421fe076d63ee35d69",
+			"revisionTime": "2017-04-07T15:41:15Z"
 		},
 		{
 			"checksumSHA1": "8A8PGNEx19/8xSkmZBr8A0RtmOg=",
 			"path": "github.com/qnib/qwatch-ng/collectors/file",
-			"revision": "82b3730f6388320a4e0529cf7506620b4cbf858f",
-			"revisionTime": "2017-04-07T13:41:28Z"
+			"revision": "b8105fc6f7ea247e374370421fe076d63ee35d69",
+			"revisionTime": "2017-04-07T15:41:15Z"
 		},
 		{
 			"checksumSHA1": "5m6dN0N9fBYnqcK9MeFwgNc5fxA=",
 			"path": "github.com/qnib/qwatch-ng/filters/id",
-			"revision": "82b3730f6388320a4e0529cf7506620b4cbf858f",
-			"revisionTime": "2017-04-07T13:41:28Z"
+			"revision": "b8105fc6f7ea247e374370421fe076d63ee35d69",
+			"revisionTime": "2017-04-07T15:41:15Z"
 		},
 		{
-			"checksumSHA1": "XQtM9i/Uf7puGBMstXONGLeqxd4=",
+			"checksumSHA1": "hWxPG2PzDQfbQLqTArOH5s6WIPo=",
 			"path": "github.com/qnib/qwatch-ng/handlers/elasticsearch",
-			"revision": "82b3730f6388320a4e0529cf7506620b4cbf858f",
-			"revisionTime": "2017-04-07T13:41:28Z"
+			"revision": "b8105fc6f7ea247e374370421fe076d63ee35d69",
+			"revisionTime": "2017-04-07T15:41:15Z"
 		},
 		{
 			"checksumSHA1": "kEFkWdDlBhKhKKE2FqyXZ4XzQbY=",
 			"path": "github.com/qnib/qwatch-ng/handlers/log",
-			"revision": "82b3730f6388320a4e0529cf7506620b4cbf858f",
-			"revisionTime": "2017-04-07T13:41:28Z"
+			"revision": "b8105fc6f7ea247e374370421fe076d63ee35d69",
+			"revisionTime": "2017-04-07T15:41:15Z"
 		},
 		{
 			"checksumSHA1": "rLbe1nVgwjOjfXb0skdGqqIk3xQ=",
 			"path": "github.com/qnib/qwatch-ng/types",
-			"revision": "82b3730f6388320a4e0529cf7506620b4cbf858f",
-			"revisionTime": "2017-04-07T13:41:28Z"
+			"revision": "b8105fc6f7ea247e374370421fe076d63ee35d69",
+			"revisionTime": "2017-04-07T15:41:15Z"
 		},
 		{
 			"checksumSHA1": "m8hYD/alsufIYIM7sR06wbL+dKo=",

@@ -36,12 +36,14 @@ services:
         parallelism: 1
         delay: 15s
     environment:
-        ES_MASTER_HOST: kibana_backend
+        ES_MASTER_HOST: qwatch-ng_backend
   collector:
-      image: qnib/qwatch-ng
-      deploy:
-        resources:
-          replicas: 1
-          limits:
-            cpus: '0.25'
-            memory: 128M
+    image: qnib/qwatch-ng
+    deploy:
+      resources:
+        replicas: 1
+        limits:
+          cpus: '0.25'
+          memory: 128M
+    environment:
+      ES_MASTER_HOST: qwatch-ng_backend

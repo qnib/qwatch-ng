@@ -2,10 +2,14 @@ ticker:
     interval: 5000
 collectors: "file"
 filters: "id"
-handlers: "log"
+handlers: "log,elasticsearch"
 collector:
   file:
     path: "resources/test.log"
 handler:
   log:
-    input: "id"
+    inputs: "id"
+  elasticsearch:
+    host: "ES_MASTER_HOST"
+    inputs: "id"
+    index-format: "logstash-2006-01-02"
