@@ -25,3 +25,4 @@ _testmain.go
 .idea
 resources/docker/bin/
 vendor
+plugins.tar
